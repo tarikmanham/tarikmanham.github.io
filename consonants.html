@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Game</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 class="title">Memory Game</h1>
+        </header>
+        <section class="score-board">
+
+            <span class="moves">0 Moves</span>
+            <i class="fa fa-refresh"></i>
+
+        </section>
+        <main class="game" id="card-game">
+            <div class="card" data-framework="1ka">
+                <img class="front-face" src="img/consonants/1ka.svg" alt="KA">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="1ka">
+                <img class="front-face" src="img/consonants/1ka.svg" alt="KA">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="2kha">
+                <img class="front-face" src="img/consonants/2kha.svg" alt="KHA">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="2kha">
+                <img class="front-face" src="img/consonants/2kha.svg" alt="KHA">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="3ga">
+                <img class="front-face" src="img/consonants/3ga.svg" alt="GA">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="3ga">
+                <img class="front-face" src="img/consonants/3ga.svg" alt="GA">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="4gha">
+                <img class="front-face" src="img/consonants/4gha.svg" alt="GHA">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="4gha">
+                <img class="front-face" src="img/consonants/4gha.svg" alt="GHA">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="5nga">
+                <img class="front-face" src="img/consonants/5nga.svg" alt="NGA">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="5nga">
+                <img class="front-face" src="img/consonants/5nga.svg" alt="NGA">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="6cha">
+                <img class="front-face" src="img/consonants/6cha.svg" alt="CHA">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="6cha">
+                <img class="front-face" src="img/consonants/6cha.svg" alt="CHA">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="7chha">
+                <img class="front-face" src="img/consonants/7chha.svg" alt="CHHA">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="7chha">
+                <img class="front-face" src="img/consonants/7chha.svg" alt="CHHA">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="8ja">
+                <img class="front-face" src="img/consonants/8ja.svg" alt="JA">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="8ja">
+                <img class="front-face" src="img/consonants/8ja.svg" alt="JA">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="9jha">
+                <img class="front-face" src="img/consonants/9jha.svg" alt="JHA">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="9jha">
+                <img class="front-face" src="img/consonants/9jha.svg" alt="JHA">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="10nja">
+                <img class="front-face" src="img/consonants/10nja.svg" alt="NJA">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="10nja">
+                <img class="front-face" src="img/consonants/10nja.svg" alt="NJA">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="11ta">
+                <img class="front-face" src="img/consonants/11ta.svg" alt="TA">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="11ta">
+                <img class="front-face" src="img/consonants/11ta.svg" alt="TA">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="12tta">
+                <img class="front-face" src="img/consonants/12tta.svg" alt="TTA">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="12tta">
+                <img class="front-face" src="img/consonants/12tta.svg" alt="TTA">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="13da">
+                <img class="front-face" src="img/consonants/13da.svg" alt="DA">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="13da">
+                <img class="front-face" src="img/consonants/13da.svg" alt="DA">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="14dda">
+                <img class="front-face" src="img/consonants/14dda.svg" alt="DDA">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="14dda">
+                <img class="front-face" src="img/consonants/14dda.svg" alt="DDA">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="15nna">
+                <img class="front-face" src="img/consonants/15nna.svg" alt="NNA">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="15nna">
+                <img class="front-face" src="img/consonants/15nna.svg" alt="NNA">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+        </main>
+    </div>
+    <script src="js/appC.js"></script>
+</body>
+
+</html>

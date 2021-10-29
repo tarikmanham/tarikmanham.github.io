@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Game</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 class="title">Memory Game</h1>
+        </header>
+        <section class="score-board">
+
+            <span class="moves">0 Moves</span>
+            <i class="fa fa-refresh"></i>
+
+        </section>
+        <main class="game" id="card-game">
+            <div class="card" data-framework="auw">
+                <img class="front-face" src="img/vowels/auw.svg" alt="AUW">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="auw">
+                <img class="front-face" src="img/vowels/auw.svg" alt="AUW">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="e1">
+                <img class="front-face" src="img/vowels/e1.svg" alt="E">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="e1">
+                <img class="front-face" src="img/vowels/e1.svg" alt="E">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="EE">
+                <img class="front-face" src="img/vowels/EE.svg" alt="EE">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="EE">
+                <img class="front-face" src="img/vowels/EE.svg" alt="EE">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="ei">
+                <img class="front-face" src="img/vowels/ei.svg" alt="EA">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="ei">
+                <img class="front-face" src="img/vowels/ei.svg" alt="EA">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="eii">
+                <img class="front-face" src="img/vowels/eii.svg" alt="EAI">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="eii">
+                <img class="front-face" src="img/vowels/eii.svg" alt="EAI">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="o1">
+                <img class="front-face" src="img/vowels/o1.svg" alt="O">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="o1">
+                <img class="front-face" src="img/vowels/o1.svg" alt="O">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="oo">
+                <img class="front-face" src="img/vowels/oo.svg" alt="OO">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="oo">
+                <img class="front-face" src="img/vowels/oo.svg" alt="OO">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="r3_1">
+                <img class="front-face" src="img/vowels/r3_1.svg" alt="ROU">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="r3_1">
+                <img class="front-face" src="img/vowels/r3_1.svg" alt="ROU">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="u1">
+                <img class="front-face" src="img/vowels/u1.svg" alt="U">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="u1">
+                <img class="front-face" src="img/vowels/u1.svg" alt="U">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="uu">
+                <img class="front-face" src="img/vowels/uu.svg" alt="UU">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="uu">
+                <img class="front-face" src="img/vowels/uu.svg" alt="UU">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="A">
+                <img class="front-face" src="img/vowels/A.svg" alt="A">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="A">
+                <img class="front-face" src="img/vowels/A.svg" alt="A">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="AA">
+                <img class="front-face" src="img/vowels/AA.svg" alt="AA">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="AA">
+                <img class="front-face" src="img/vowels/AA.svg" alt="AA">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="aha">
+                <img class="front-face" src="img/vowels/aha.svg" alt="AHA">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="aha">
+                <img class="front-face" src="img/vowels/aha.svg" alt="AHA">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="ai">
+                <img class="front-face" src="img/vowels/ai.svg" alt="AI">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="ai">
+                <img class="front-face" src="img/vowels/ai.svg" alt="AI">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="am">
+                <img class="front-face" src="img/vowels/am.svg" alt="AM">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+            <div class="card" data-framework="am">
+                <img class="front-face" src="img/vowels/am.svg" alt="AM">
+                <img class="back-face" src="img/Blue_question_mark_icon.png" alt="card back">
+            </div>
+        </main>
+    </div>
+    <script src="js/appV.js"></script>
+</body>
+
+</html>
